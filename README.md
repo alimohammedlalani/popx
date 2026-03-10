@@ -1,16 +1,78 @@
-# React + Vite
+PopX React UI Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a pixel-accurate implementation of the PopX mobile UI design provided in the assignment. The interface was built using modern frontend technologies and follows a clean component-based architecture.
 
-Currently, two official plugins are available:
+🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React – for building reusable UI components
 
-## React Compiler
+Vite – fast development environment and build tool
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tailwind CSS – utility-first styling for responsive and clean design
 
-## Expanding the ESLint configuration
+React Router – for navigation between pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vercel – used for deploying the live application
+
+📱 Features
+
+Pixel-aligned UI based on the provided design
+
+Mobile-style layout centered on the webpage
+
+Reusable components for buttons and inputs
+
+Floating label input fields
+
+Navigation between pages using React Router
+
+Clean and structured codebase
+
+📄 Pages Implemented
+
+Welcome Page
+
+Intro text
+
+Navigation to signup or login
+
+Login Page
+
+Email and password input fields
+
+Login button
+
+Sign Up Page
+
+Multiple form inputs
+
+Agency selection
+
+Create account button
+
+Account Settings Page
+
+Profile information
+
+Description section
+
+📂 Project Structure
+src
+ ├ components
+ │   ├ Button.jsx
+ │   ├ Input.jsx
+ │
+ ├ pages
+ │   ├ WelcomePage.jsx
+ │   ├ Login.jsx
+ │   ├ SignUp.jsx
+ │   ├ AccountSettings.jsx
+ │
+ ├ App.jsx
+ ├ main.jsx
+
+🌐 Live Demo
+
+Deployed on Vercel
+
+https://popx-livid-two.vercel.app/
