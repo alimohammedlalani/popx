@@ -1,78 +1,86 @@
-PopX React UI Assignment
+# PopX React UI Assignment
 
-This project is a pixel-accurate implementation of the PopX mobile UI design provided in the assignment. The interface was built using modern frontend technologies and follows a clean component-based architecture.
+This project is a pixel‑accurate implementation of the PopX mobile UI design provided in the assignment. The interface was built using modern frontend technologies with a clean, reusable component structure.
 
-🚀 Tech Stack
+---
 
-React – for building reusable UI components
+## Tech Stack
 
-Vite – fast development environment and build tool
+* React – for building reusable UI components
+* Vite – fast development environment and build tool
+* Tailwind CSS – utility‑first CSS framework for styling
+* React Router – for navigation between pages
+* Vercel – used for deploying the live application
 
-Tailwind CSS – utility-first styling for responsive and clean design
+---
 
-React Router – for navigation between pages
+## Features
 
-Vercel – used for deploying the live application
+* Pixel‑aligned UI based on the provided design
+* Mobile‑style interface centered on the webpage
+* Reusable components (Button and Input)
+* Floating label input fields
+* Smooth navigation using React Router
+* Clean and well‑structured codebase
 
-📱 Features
+---
 
-Pixel-aligned UI based on the provided design
+## Pages Implemented
 
-Mobile-style layout centered on the webpage
+1. Welcome Page
 
-Reusable components for buttons and inputs
+   * Introduction text
+   * Navigation to login or signup
 
-Floating label input fields
+2. Login Page
 
-Navigation between pages using React Router
+   * Email and password fields
+   * Login button
 
-Clean and structured codebase
+3. Sign Up Page
 
-📄 Pages Implemented
+   * Full name
+   * Phone number
+   * Email
+   * Password
+   * Company name
+   * Agency selection
+   * Create account button
 
-Welcome Page
+4. Account Settings Page
 
-Intro text
+   * Profile information
+   * Description section
 
-Navigation to signup or login
+---
 
-Login Page
+## Project Structure
 
-Email and password input fields
-
-Login button
-
-Sign Up Page
-
-Multiple form inputs
-
-Agency selection
-
-Create account button
-
-Account Settings Page
-
-Profile information
-
-Description section
-
-📂 Project Structure
 src
- ├ components
- │   ├ Button.jsx
- │   ├ Input.jsx
- │
- ├ pages
- │   ├ WelcomePage.jsx
- │   ├ Login.jsx
- │   ├ SignUp.jsx
- │   ├ AccountSettings.jsx
- │
- ├ App.jsx
- ├ main.jsx
+├── components
+│   ├── Button.jsx
+│   ├── Input.jsx
+│
+├── pages
+│   ├── WelcomePage.jsx
+│   ├── Login.jsx
+│   ├── SignUp.jsx
+│   ├── AccountSettings.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
 
-🌐 Live Demo
+---
 
-Deployed on Vercel
+
+## Live Demo
+
+The project is deployed on Vercel.
+
+Add your deployed link here:
 
 https://popx-livid-two.vercel.app/
+
+---
+
